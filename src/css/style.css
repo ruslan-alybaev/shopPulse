@@ -379,6 +379,9 @@ body {
 .reviews {
   padding: 70px;
 }
+.reviews__line {
+  position: relative;
+}
 .reviews__title {
   font-size: 30px;
   font-weight: 700;

@@ -1,6 +1,8 @@
 .reviews{
   padding: 70px;
-
+ &__line{
+   position: relative;
+ }
 
   &__title{
     @include font(30px, 700);
