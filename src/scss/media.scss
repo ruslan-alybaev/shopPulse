@@ -1,0 +1,165 @@
+@media screen and (max-width: 1200px){
+  .container{
+    max-width: 1140px;
+  }
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .carousel .slider .owl-nav .owl-prev{
+    left: 7%;
+  }
+  .carousel .slider .owl-nav .owl-next{
+    right: 7%;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 520px;
+  }
+  .header__block{
+    position: relative;
+  }
+  .header__agent{
+    position: absolute;
+    top: 80px;
+  }
+
+  .hero__content-block{
+    padding-top: 75px;
+  }
+
+  .col-4{
+    width: 50%;
+  }
+
+  .advant-col-4{
+    width: 100%;
+  }
+
+  .advantages__item{
+    margin-bottom: 25px;
+  }
+
+  .carousel__img{
+    height: 360px;
+    width: 500px;
+  }
+  .owl-carousel .owl-item img{
+    width: 500px;
+  }
+
+  .catalog__btn{
+    margin-bottom: 15px;
+  }
+
+  .catalog__item-footer-btn{
+    padding: 0 25px;
+  }
+
+
+  .reviews__block-img{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .reviews__content{
+    padding-bottom: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 320px;
+  }
+
+
+  .header__contact{
+    position: absolute;
+    top: 145px;
+  }
+  .hero__content-title {
+    font-size: 36px;
+  }
+
+  .hero__content-description{
+    font-size: 16px;
+  }
+
+  .hero__content-button{
+    padding: 15px;
+  }
+
+  .col-4{
+    width: 100%;
+  }
+
+  .consult__title{
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .owl-carousel .owl-item img{
+    height: 280px;
+    width: 420px;
+  }
+
+  .catalog__btn{
+    width: 230px;
+    padding: 16px 0;
+  }
+
+  .contacts__block{
+    width: 375px;
+    height: 245px;
+  }
+}
+
+
+
+@media screen and (max-width: 375px){
+  .container{
+    max-width: 318px;
+  }
+
+
+  .hero__content-title{
+    padding-top: 180px;
+    font-size: 25px;
+  }
+
+  .hero__content-description{
+    font-size: 14px;
+  }
+
+  .hero__content-icons{
+    display: block;
+  }
+
+  .hero__content-icon{
+    margin-bottom: 15px;
+  }
+
+
+  .consult__form{
+    width: 275px;
+  }
+  .owl-carousel .owl-item img{
+    height: 215px;
+    width: 265px;
+  }
+
+
+
+  .catalog__buttons{
+    margin: 35px 0;
+  }
+}

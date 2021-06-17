@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93f4b11c-4e0f-48e5-9987-3ae5be9610b9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tUGtktVuDErOO8FBBrxo34xA4d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud_proj" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1iex\Desktop\shopPulse\src\images\reviews" />
+      <recent name="C:\Users\1iex\Desktop\shopPulse\src\images\catalog" />
+      <recent name="C:\Users\1iex\Desktop\shopPulse\src\images\carousel" />
+      <recent name="C:\Users\1iex\Desktop\shopPulse\src\libs\owl-carousel" />
+      <recent name="C:\Users\1iex\Desktop\shopPulse\src\images\consultation" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93f4b11c-4e0f-48e5-9987-3ae5be9610b9" name="Default Changelist" comment="" />
+      <created>1622816470600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622816470600</updated>
+      <workItem from="1622816472987" duration="6001000" />
+      <workItem from="1622901736549" duration="30000" />
+      <workItem from="1623074478037" duration="605000" />
+      <workItem from="1623122212530" duration="125000" />
+      <workItem from="1623161592640" duration="2242000" />
+      <workItem from="1623295910640" duration="58000" />
+      <workItem from="1623334797680" duration="130000" />
+      <workItem from="1623770882977" duration="655000" />
+      <workItem from="1623816710893" duration="156000" />
+      <workItem from="1623938931638" duration="3822000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1623938999100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623295966903" />
+    <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623938999100" />
+    <state x="616" y="235" key="run.anything.popup" timestamp="1623766317582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623766317582" />
+  </component>
+</project>

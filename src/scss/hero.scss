@@ -1,0 +1,54 @@
+.hero{
+
+  background: url("../images/hero/bg1@1X.png") left top/100% 100%;
+
+
+  &__content{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: end;
+    color: #FFFFFF;
+
+    &-title{
+      @include font(42px, 700);
+      text-transform: uppercase;
+      margin-bottom: 17px;
+    }
+    &-description{
+      @include font(24px, 500);
+      text-transform: uppercase;
+    }
+    &-icons{
+      display: flex;
+      list-style-type: none;
+      margin: 40px 0;
+    }
+    &-icon{
+      text-align: center;
+      margin-left: 70px;
+    }
+    &-button{
+      @include font(12px, normal);
+      padding: 17px 43px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      background-color: $primred;
+      border: none;
+      border-radius: 6px;
+      margin-bottom: 18px;
+      transition: 0.6s;
+      cursor: pointer;
+      &:hover{
+        background-color: red;
+        transition: 0.6s;
+      }
+    }
+    &-a{
+      @include font(16px, 500);
+      color: #FFFFFF;
+    }
+  }
+
+}

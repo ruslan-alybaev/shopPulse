@@ -1,0 +1,25 @@
+.advantages{
+  padding: 71px 0 95px;
+  color: #0D0D0D;
+
+
+  &__title{
+    @include font(30px, 700);
+    text-align: center;
+    margin-bottom: 65px;
+  }
+  &__item{
+    text-align: center;
+  }
+  &__subtitle{
+    @include font(18px, 700);
+    margin: 38px 0;
+  }
+  &__description{
+    @include font(14px, 300);
+    padding: 0 35px;
+  }
+  &__link{
+    color: $primred;
+  }
+}

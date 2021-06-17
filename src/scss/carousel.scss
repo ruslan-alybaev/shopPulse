@@ -1,0 +1,33 @@
+.carousel{
+  padding: 108px 0;
+
+  &__img {
+    height: 527px;
+    margin: 0 auto;
+  }
+}
+
+
+.owl-carousel .owl-item img{
+  width: 750px;
+}
+
+.carousel .slider .owl-nav .owl-prev{
+  color: red;
+  font-size: 90px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
+.carousel .slider .owl-nav .owl-next{
+  color: red;
+  font-size: 90px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,44 @@
+.header{
+  position: absolute;
+  top: 21px;
+  width: 100%;
+
+  &__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  &__logo{
+    cursor: pointer;
+  }
+  &__agent-off{
+    @include font(12px, normal);
+    margin-bottom: 12px;
+  }
+  &__agent-name{
+    @include font(18px, normal)
+  }
+  &__contact{
+    text-align: end;
+  }
+  &__contact-tel{
+    @include font(18px, normal);
+    margin-bottom: 7px;
+  }
+  &__contact-button{
+    padding: 11px 20px;
+    @include font(12px, normal);
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: $primred;
+    border: none;
+    border-radius: 6px;
+    transition: 0.6s;
+    cursor: pointer;
+    &:hover{
+      background-color: red;
+      transition: 0.6s;
+    }
+  }
+}

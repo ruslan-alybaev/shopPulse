@@ -1,0 +1,96 @@
+.catalog{
+    padding-bottom: 103px;
+
+
+  &__title{
+    @include font(30px, 700);
+    text-align: center;
+  }
+
+  &__buttons{
+    text-align: center;
+    margin: 68px 0;
+  }
+
+  &__btn{
+    @include font(18px, 500);
+    padding: 16px 46px;
+    background-color: $primred;
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+    transform: skewX(160deg);
+    margin-right: 8px;
+  }
+
+
+  &__btn span{
+    display: inline-block;
+    transform: skewX(-160deg);
+  }
+  &__item{
+    border: 2px solid #e8e8e8;
+    text-align: center;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+
+    &-title{
+      @include font(16px, 700);
+      color: #0D0D0D;
+      margin-top: 20px;
+    }
+
+    &-text{
+      @include font(14px, 300);
+      color: #0D0D0D;
+      margin: 16px 0 17px;
+    }
+
+    &-link{
+      @include font(14px, 500);
+      color: $primred;
+
+    }
+
+    &-footer{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      margin-top: 40px;
+      &::before{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background-color: #e8e8e8;
+        top: -20px;
+
+      }
+      &-price span{
+        @include font(14px, 300);
+        color: #555555;
+        text-decoration: line-through;
+      }
+
+      &-price{
+        @include font(20px, 700);
+        color: #050505;
+        text-align: left;
+      }
+      &-btn{
+        height: 41px;
+        padding: 0 40px;
+        background-color: $primred;
+        border: none;
+        border-radius: 6px;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: .6s;
+        &:hover{
+          background-color: red;
+          transition: .6s;
+        }
+      }
+    }
+  }
+}
